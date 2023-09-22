@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+
+body{
+    background-image: url(../img/ladrillo.jpg);
+    background-repeat: repeat;
+    background-size: 180px 180px;
+}
+.areaPrincipal{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    background-size: 100% 100%;
+    color: white;
+    
+    
+}
+#encabezado{
+    background: rgb(215,215,215);
+    height: 240px;
+    text-align: center;
+    background-image: url(../img/logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+    
+    
+}
+
+.piePagina{
+    width: 100%;
+    height: 100px;
+    background: #15101b;
+    color: white;
+    bottom: 0;
+    padding-top: 40px;
+    font-size: 30px;
+    left: 0;
+}
+#menu{
+    height: 40px;
+    position:relative;
+    top: 200px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111111;
+}
+#datos{
+    
+    background-color: #333333;
+    height: auto;
+    margin: auto;
+    opacity: 12;
+    color: white;
+    padding: 40px 40px 40px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.producto{
+    
+    width: auto;
+    height: 500px;
+    padding-left: 170px;
+    padding-top: 70px;
+}
+.prod{
+    
+    width: 300px;
+    height: 400px;
+    
+    display: inline-block;
+}
+.im{
+    display: inline-block;
+    padding-left: 40px;
+}
+.ima{
+    display: inline-block;
+    
+    padding: 20px 0px 20px 150px;
+}
+.card{
+    color: black;
+}
+.somos{
+    padding-left: 200px;
+}
+.sm{
+    
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    padding-top: 40px;
+    
+}
+.conta{
+    width: 300px;
+    height: 300px;
+    
+    display: inline-block;
+}
